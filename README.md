@@ -41,4 +41,15 @@ ping -c 4 google.com
 ```
 El ```ip``` es para comprobar la IP y el ```ping -c 4 google.com``` para poder hacer ping en google
 
+# Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+<img width="1073" height="593" alt="image" src="https://github.com/user-attachments/assets/95c6c343-eb4f-43b2-afb7-45b252a01423" />
+
+Comandos a utilizar:
+```
+docker run -it --name dam_alp2 alpine
+ping -c 4 172.17.0.2
+```
+Creamos un nuevo contener de la misma forma que hicimos antes pero esta vez con el nombre dam_alp2 y comjprobamos que hacen ping entre ellas dos
+
+
 
