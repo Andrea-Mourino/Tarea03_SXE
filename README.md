@@ -29,7 +29,7 @@ Comandos a utilizar:
 ```
 docker run -it --name dam_alp1 alpine
 ```
-Esto es para crear el contenedor que queremos pero con un nombre esta vez (el ```--name``` es loq ue nos proporciona poder hacerlo)
+Esto es para crear el contenedor que queremos pero con un nombre esta vez (el ```--name``` es lo que nos proporciona poder hacerlo)
 
 # Comprueba que ip tiene y si puedes hacer un ping a google.com
 <img width="1212" height="571" alt="image" src="https://github.com/user-attachments/assets/9a33e928-6bb4-40dc-83f7-31961bc56754" />
@@ -49,7 +49,7 @@ Comandos a utilizar:
 docker run -it --name dam_alp2 alpine
 ping -c 4 172.17.0.2
 ```
-Creamos un nuevo contener de la misma forma que hicimos antes pero esta vez con el nombre dam_alp2 y comjprobamos que hacen ping entre ellas dos
+Creamos un nuevo contenedor de la misma forma que hicimos antes pero esta vez con el nombre dam_alp2 y comprobamos que hacen ping entre ellas dos
 
 # Sal del terminal, ¿que ocurrió con el contenedor?
 <img width="1270" height="589" alt="image" src="https://github.com/user-attachments/assets/62c88e8a-12a4-4b78-a8c8-2680fbdbf271" />
