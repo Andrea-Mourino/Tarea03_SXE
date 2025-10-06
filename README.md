@@ -71,3 +71,11 @@ docker system df
 ```
 El primero comando es para para que SOLO muestre la informacion de las imagenes y el segundo comando es para que muestre la informacion de cualquier docker
 
+# ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?
+<img width="1318" height="151" alt="image" src="https://github.com/user-attachments/assets/0cfe1e7b-1522-4e2d-9a32-4652f5e23633" />
+
+Comandos a utilizar:
+```
+docker stats
+```
+En este caso la RAM usada se muestra en el apartado MEM %
