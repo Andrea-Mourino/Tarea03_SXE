@@ -51,5 +51,13 @@ ping -c 4 172.17.0.2
 ```
 Creamos un nuevo contener de la misma forma que hicimos antes pero esta vez con el nombre dam_alp2 y comjprobamos que hacen ping entre ellas dos
 
+# Sal del terminal, ¿que ocurrió con el contenedor?
+<img width="1270" height="589" alt="image" src="https://github.com/user-attachments/assets/62c88e8a-12a4-4b78-a8c8-2680fbdbf271" />
 
+Comandos a utilizar:
+```
+exit
+docker ps -a
+```
+```exit``` es para poder salir de la terminal y ```ps -a``` es para poder ver el estado del contenedor 
 
