@@ -23,17 +23,22 @@ docker ps -a
 Primeramente creamos el contenerdor con ```create alpine```. Luego ```ps``` para mostrar los contenedores en ejecucion y por ultimo ```ps -a``` para ver todos los contenedores y ver el nombre que se le a asignado que en este caso es lucid_chatterjee
 
 # Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
-<img width="1260" height="591" alt="image" src="https://github.com/user-attachments/assets/a557def9-5140-4a85-a5c5-8641b368635c" />
+<img width="1248" height="183" alt="image" src="https://github.com/user-attachments/assets/e122f0d3-79a9-4a81-a41d-2b34428c9959" />
+
+Comandos a utilizar:
 ```
 docker run -it --name dam_alp1 alpine
 ```
-Esto es para crear el contenedor que queremos con nombre esta vez.
+Esto es para crear el contenedor que queremos pero con un nombre esta vez (el ```--name``` es loq ue nos proporciona poder hacerlo)
 
+# Comprueba que ip tiene y si puedes hacer un ping a google.com
+<img width="1212" height="571" alt="image" src="https://github.com/user-attachments/assets/9a33e928-6bb4-40dc-83f7-31961bc56754" />
+
+Comandos a utilizar:
 ```
 ip a
 ping -c 4 google.com
 ```
-El ```ip``` es para comprobar la IP y lo otro para poder hacer ping en google
-
+El ```ip``` es para comprobar la IP y el ```ping -c 4 google.com``` para poder hacer ping en google
 
 
