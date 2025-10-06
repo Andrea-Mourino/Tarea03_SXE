@@ -61,3 +61,13 @@ docker ps -a
 ```
 ```exit``` es para poder salir de la terminal y ```ps -a``` es para poder ver el estado del contenedor 
 
+# ¿Cuanta memoria en el disco duro ocupaste?
+<img width="785" height="580" alt="image" src="https://github.com/user-attachments/assets/398afd12-3712-48e5-9ee3-8424310d5101" />
+
+Comandos a utilizar:
+```
+docker images
+docker system df
+```
+El primero comando es para para que SOLO muestre la informacion de las imagenes y el segundo comando es para que muestre la informacion de cualquier docker
+
