@@ -9,3 +9,16 @@ docker pull alpine
 docker images
 ```
 Como se ve en la imagen hice un ```pull``` para descargar la imagen y luego ```images``` para mostrar las que estan en nuestro equipo
+
+
+# Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
+
+<img width="1715" height="561" alt="image" src="https://github.com/user-attachments/assets/8d49f0ea-771e-4256-95da-88795312b35a" />
+
+Comandos a utilizar:
+```
+docker create alpine
+docker ps
+docker ps -a
+```
+Primeramente creamos el contenerdor con create alpine. Luego ps para mostrar los contenedores en ejecucion y por ultimo ps -a para ver todos los contenedores y ver el nombre que se le a asignado que en este caso es lucid_chatterjee
